@@ -1,11 +1,11 @@
-import { isString, isObject } from './detect';
+import { isObject } from './detect';
 
 /**
  * 生成一个随机落地的布局方案
  */
 type NodeDatum = { id: string; [key: string]: any };
 
-function randomLayout(nodes: (number | string | NodeDatum)[]) {
+export function randomLayout(nodes: (number | string | NodeDatum)[]) {
   let initialDistance = 100,
     initialAngle = Math.PI * (3 - Math.sqrt(5));
 
