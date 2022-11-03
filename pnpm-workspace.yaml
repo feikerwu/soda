@@ -1,0 +1,5 @@
+packages:
+  # packages 下的所有包被定义 Mono Repo 子包
+  - 'packages/*'
+  # examples 的所有包不被定义为子包
+  - '!**/examples/**'
