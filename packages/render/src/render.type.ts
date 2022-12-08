@@ -5,7 +5,7 @@ export type Options = {
   height: number;
 };
 
-type Point = [Number, Number];
+type Point = [number, number];
 export type Context = CanvasRenderingContext2D;
 
 export type BaseAttrs = {
