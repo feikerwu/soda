@@ -8,13 +8,13 @@ export type Options = {
 type Point = [number, number];
 export type Context = CanvasRenderingContext2D;
 
-export type BaseAttrs = {
+export type BaseAttrs = Partial<{
   fillStyle: string;
   strokeStyle: string;
-};
+}>;
 
 export type LineOptions = {
   points: Point[];
-  lineWidth: number;
-  lineCap: number;
+  lineWidth?: number;
+  lineCap?: number;
 } & BaseAttrs;

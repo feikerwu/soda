@@ -31,7 +31,8 @@
     "paths": {
       "@gtea/dsl": ["./packages/dsl/src/index.ts"],
       "@gtea/tools": ["./packages/tools/src/index.ts"],
-      "@gtea/utils": ["./packages/utils/index.ts"]
+      "@gtea/utils": ["./packages/utils/index.ts"],
+      "@gtea/renderer": ["./packages/renderer/src/index.ts"]
     },
     // "rootDirs": [],                                   /* Allow multiple folders to be treated as one when resolving modules. */
     // "typeRoots": [],                                  /* Specify multiple folders that act like `./node_modules/@types`. */
